@@ -8,17 +8,46 @@
   <title>Alavanca Jiu Jitsu</title>
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/scroll.js"></script>
 </head>
 
 <body>
   <nav>
-    <div id="navigation">
-      <a>Home</a>
-      <a href="aboutUs.html">About Us</a>
-      <a href="classes.html">Classes</a>
-      <a href="contactUs.html">Contact Us</a>
-    </div>
+    <ul class="navigation">
+      <li><a id="homeLink" href="#home">Home</a></li>
+      <li><a id="aboutUsLink" href="#aboutUs">About Us</a></li>
+      <li><a id="classesLink" href="#classes">Classes</a></li>
+      <li><a id="contactUsLink" href="#contactUs">Contact Us</a></li>
+    </ul>
   </nav>
+  <div class="page" id="home">
+    <div class="pagePadding"></div>
+    <a class="smooth"></a>
+    <h1>ALAVANCA BJJ</h1>
+  </div>
+  <div class="page" id="aboutUs">
+    <div class="pagePadding"></div>
+    <h1>ABOUT US</h1>
+    <p>Brazilian Jiu Jitsu 3rd degree black belt Steve Campbell is the head instructor at Alavanca BJJ. Our team focuses on BJJ classes for the complete beginner as well as advanced students. This way, new starters are always joining and becoming valuable
+      training partners for the future. To achieve this goal, we developed our BJJ beginners programme. This is a structured, progressive and fun syllabus enabling students to train in a safe environment. This approach means everyone can excel regardless
+      of height, weight or athletic ability. </br>
+      Brazilian Jiu Jitsu is an effective form of self-defense made famous by the Gracie family in early UFC events. First and foremost it is a submission grappling style based around correct technique and leverage. The fundamental principle is to allow a smaller
+      person to overcome a larger stronger opponent.</br>
+      Our Brazilian Jiu Jitsu classes based near Oldham are a great way to improve your fitness, lose weight and gain self confidence. These jiu jitsu skills then enable students to defend themselves in case a life-threatening situation arises. In summary,
+      no previous experience is required before starting BJJ as the system is adapted to the student’s personal capabilities.</p>
+  </div>
+  <div class="page" id="classes">
+    <div class="pagePadding"></div>
+    <a class="smooth"></a>
+    <h1>CLASSES</h1>
+  </div>
+  <div class="page" id="contactUs">
+    <div class="pagePadding"></div>
+    <a class="smooth"></a>
+    <h1>CONTACT US</h1>
+  </div>
+  <img id="ibjjf" src="images/ibjjf.png" alt="IBJJF Logo" height="100">
 </body>
 
 </html>

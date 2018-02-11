@@ -1,18 +1,93 @@
-body, html {
-    height: 100%;
+* {
+  margin: 0 auto;
+  font-family: Courier;
 }
-#navigation{
+
+html {
+  height: 4000px;
+  background-image: url('../images/bg.jpg');
+  background-size: 100% auto;
+  background-attachment: fixed;
+  margin: 0 auto;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .7);
+}
+
+nav {
+  z-index: 1;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+nav li {
+  color: black;
+  position: relative;
+  left: 20%;
+  padding: 0px 50px;
+  margin: 0px 10px;
   font-size: 20px;
+  display: inline;
+  text-transform: uppercase;
+  text-align: center;
 }
-.bg {
-    /* The image used */
-    background-image: url("../images/images/bg.jpg");
 
-    /* Full height */
-    height: 100%;
+div {
+  display: block;
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 400;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: black;
+}
+
+.navigation {
+  padding-top: 10px;
+}
+
+.pagePadding {
+  height: 50px;
+  width: 100%;
+}
+
+.page {
+  height: 1000px;
+  width: 100%;
+}
+
+#aboutUs p {
+  text-align: center;
+  font-family: Arial;
+  position: relative;
+  color: white;
+  font-size: 15px;
+  line-height: 25pt;
+}
+
+#ibjjf {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 }
