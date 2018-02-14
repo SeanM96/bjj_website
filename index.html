@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Alavanca Jiu Jitsu</title>
   <link rel="stylesheet" type="text/css" href="style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="images/icon.png" />
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/scroll.js"></script>
@@ -40,13 +41,105 @@
     <div class="pagePadding"></div>
     <a class="smooth"></a>
     <h1>CLASSES</h1>
+    <table>
+      <tr class="days">
+        <th></th>
+        <th>MONDAY</th>
+        <th>TUESDAY</th>
+        <th>WEDNESDAY</th>
+        <th>THURSDAY</th>
+        <th>FRIDAY</th>
+        <th>SATURDAY</th>
+        <th>SUNDAY</th>
+      </tr>
+      <tr>
+        <td class="classType">FREE INTRO CLASSES</td>
+        <td>09:00AM-12:00PM</td>
+        <td>09:00AM-12:00PM</td>
+        <td>09:00AM-12:00PM</td>
+        <td>09:00AM-12:00PM</td>
+        <td>09:00AM-12:00PM</td>
+        <td>09:00AM-12:00PM</td>
+        <td>09:00AM-12:00PM</td>
+      </tr>
+      <tr>
+        <td class="classType">GI TAKEDOWNS</td>
+        <td>12:00PM-3:00PM</td>
+        <td>12:00PM-3:00PM</td>
+        <td>12:00PM-3:00PM</td>
+        <td>12:00PM-3:00PM</td>
+        <td>12:00PM-3:00PM</td>
+        <td>12:00PM-3:00PM</td>
+        <td>12:00PM-3:00PM</td>
+      </tr>
+      <tr>
+        <td class="classType">GI SPARRING</td>
+        <td>3:00PM-4:00PM</td>
+        <td>3:00PM-4:00PM</td>
+        <td>3:00PM-4:00PM</td>
+        <td>3:00PM-4:00PM</td>
+        <td>3:00PM-4:00PM</td>
+        <td>3:00PM-4:00PM</td>
+        <td>3:00PM-4:00PM</td>
+      </tr>
+      <tr>
+        <td class="classType">NO GI TECHNIQUES</td>
+        <td>4:00PM-7:00PM</td>
+        <td>4:00PM-7:00PM</td>
+        <td>4:00PM-7:00PM</td>
+        <td>4:00PM-7:00PM</td>
+        <td>4:00PM-7:00PM</td>
+        <td>4:00PM-7:00PM</td>
+        <td>4:00PM-7:00PM</td>
+      </tr>
+      <tr>
+        <td class="classType">NO GI SPARRING</td>
+        <td>7:00PM-8:00PM</td>
+        <td>7:00PM-8:00PM</td>
+        <td>7:00PM-8:00PM</td>
+        <td>7:00PM-8:00PM</td>
+        <td>7:00PM-8:00PM</td>
+        <td>7:00PM-8:00PM</td>
+        <td>7:00PM-8:00PM</td>
+      </tr>
+    </table>
   </div>
   <div class="page" id="contactUs">
     <div class="pagePadding"></div>
     <a class="smooth"></a>
     <h1>CONTACT US</h1>
+    <div class="contactForm">
+      <form action="action_page.php">
+
+        <label for="fname" class="contactTitle">First Name</label>
+        <input type="text" id="fname" name="firstname">
+
+        <label for="lname" class="contactTitle">Last Name</label>
+        <input type="text" id="lname" name="lastname">
+
+        <label for="email" class="contactTitle">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="phone" class="contactTitle">Phone Number</label>
+        <input type="text" id="phoneNum" name="phoneNum">
+
+        <label for="expirience" class="contactTitle">Expirience Level</label>
+        <input type="text" id="expirience" name="expirience" placeholder="e.g None, blue belt ect">
+
+        <label for="subject" class="contactTitle">Reasons for training</label>
+        <textarea id="subject" name="subject" placeholder="Max 200 characters" maxlength="200"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
   </div>
-  <img id="ibjjf" src="images/ibjjf.png" alt="IBJJF Logo" height="100">
+  <footer>
+    <a href="https://www.facebook.com/stealthbjj/?ref=br_rs"> <i class="fa fa-facebook-square"></i></a>
+    <a href="https://twitter.com/stealthbjj?lang=en"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/stealthbjj/"><i class="fa fa-instagram"></i></a>
+  </footer>
+   <img id="ibjjf" src="images/ibjjf.png" alt="IBJJF Logo" height="65">
 </body>
 
 </html>
